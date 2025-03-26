@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youth Camp 2025</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-image: url('background-camp.png'); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: black;
+            text-align: center;
+        }
+
+        .header {
+            padding: 20px 0;
+        }
+
+        .header h3 {
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            margin: 5px 0;
+        }
+
+        .content {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        h3 {
+            font-size: 2.4em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: -120px;
+        }
+
+        h1 {
+            font-size: 8.8em;
+            font-weight: bold;
+            margin-bottom: -50px;
+            letter-spacing: -2px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        h2 {
+            font-size: 2.5em;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: -15px;
+        }
+
+        .button-container {
+            position: fixed;
+            bottom: 60px; /* Adjust as needed */
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%;
+            max-width: 600px; /* Adjust as needed */
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Space between buttons */
+            padding: 0 10px;
+        }
+
+        .button {
+            background-color: #007bff;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            width: 48%; /* Adjust for spacing */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        @media (min-width: 768px) {
+            .button-container {
+                width: 50%;
+                max-width: 600px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h3>YOUTH CAMP 2025</h3>
+        <h3>MAY 1-3</h3>
+    </div>
+
+    <div class="content">
+        <h3>COLOSSIANS 1:17-18</h3>
+        <h1>JESUS</h1>
+        <h2>OVER EVERYTHING</h2>
+        <p>Methodist Prayer Garden & Conference Site</p>
+        <p>Tikling, Taytay, Rizal</p>
+        <p style="color:#007bff; margin-top: 60px;">REGISTRATION FEE: P1,500</p>
+    </div>
+
+    <div class="button-container">
+        <button class="button" onclick="location.href='campers-registration.php'">REGISTER NOW</button>
+        <button class="button" onclick="location.href='admin_login.php'">ADMIN LOGIN</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+ "name": "youthcamp/jesusovereverything",
+  "description": "YOUTHCAMP",
+  "require": {
+    "phpoffice/phpspreadsheet": "^1.20"
+  }
+}
